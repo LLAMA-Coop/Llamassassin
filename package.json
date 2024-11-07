@@ -1,0 +1,19 @@
+{
+  "name": "llamassassin",
+  "version": "1.0.0",
+  "description": "The llama must protect the herd from predators. This is a game written in C++ compiled into WebAssembly using Canvas API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LLAMA-Coop/Llamassassin.git"
+  },
+  "author": "Learning, Language, and Multicultural Advancement LLC as well as contributors from around the world",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/LLAMA-Coop/Llamassassin/issues"
+  },
+  "homepage": "https://github.com/LLAMA-Coop/Llamassassin#readme"
+}
