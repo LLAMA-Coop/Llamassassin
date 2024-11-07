@@ -4,8 +4,8 @@
   "description": "The llama must protect the herd from predators. This is a game written in C++ compiled into WebAssembly using Canvas API.",
   "main": "index.js",
   "scripts": {
-    "build": "emcc src/main.cpp -o public/game.js -s WASM=1 -s EXPORTED_FUNCTIONS=['_main'] -s EXTRA_EXPORTED_RUNTIME_METHODS=['cwrap']",
-    "start": "npm run build && live-server public --port=8080 --watch=public"
+    "build": "emcc src/main.cpp -o public/game.js -s WASM=1 -s EXPORTED_FUNCTIONS=['_add'] -s EXTRA_EXPORTED_RUNTIME_METHODS=['cwrap']",
+    "start": "npm run build && node index.js"
   },
   "repository": {
     "type": "git",
